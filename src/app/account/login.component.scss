@@ -1,0 +1,33 @@
+#header-text {
+  width: 154px;
+  height: 60px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 23px;
+  /* or 107% */
+
+  margin-left: 20px;
+  color: #656565;
+}
+.card-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  padding: 50px 0 30px 0;
+  border: none;
+  border-radius: 18px;
+}
+.field {
+  border: 1.5px solid #58a3ca;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.card-body {
+  border: none;
+
+  padding: 0 60px 20px 60px;
+}
