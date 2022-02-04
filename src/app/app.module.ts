@@ -12,16 +12,19 @@ import { AccountService } from './_services';
 import { AppComponent } from './app.component';
 import { AlertComponent } from './_components';
 import { HomeComponent } from './home';
-// import { TourMatMenuModule } from 'ngx-ui-tour-md-menu';
+import { TourMatMenuModule } from 'ngx-ui-tour-md-menu';
 import { RouterModule } from '@angular/router';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   imports: [
     BrowserModule,
+    TourMatMenuModule.forRoot(),
+    RouterModule,
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
     RouterModule,
+    BrowserAnimationsModule,
   ],
   declarations: [AppComponent, AlertComponent, HomeComponent],
   providers: [
