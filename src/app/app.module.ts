@@ -18,7 +18,6 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     BrowserModule,
-    // TourMatMenuModule.forRoot(),
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
